@@ -8,14 +8,11 @@ const StudentRedux = (state = initialState, action) => {
             }else {
                 return state
             }
-            break;
         case "DELETE_CLASS":
             return state.filter((item) => item.id !== action.payload.id);
-            break;
         default:{
            return state 
         }
-        break;
     }
 }
 

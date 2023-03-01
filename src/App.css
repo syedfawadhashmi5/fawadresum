@@ -1,0 +1,449 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #1100ff;
+}
+
+
+
+.quiz_main .score {
+  text-align: left;
+}
+
+.question-count {
+  text-align: left;
+}
+
+.quiz_main .quiz_question {
+  text-align: left;
+}
+
+
+.quiz_main .quiz_question .score h2 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.quiz_main .question-count  h3 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.quiz_main .quiz-question .score  p span {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #19c213;
+}
+
+.quiz_main .quiz-question .score  p {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.quiz_main .quiz_question .question_number h4 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.answer-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Answer_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ans_button_main {
+  width: 100%;
+}
+
+.answer-options  button {
+  width: 100%;
+  height: 37px;
+  background-color: #0fd8f3;
+  border: none;
+  color: #000000;
+  text-transform: uppercase;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.btn_mian {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.buttons .quit-button {
+  width: 100%;
+  height: auto;
+  background-color: #ff0019;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+.buttons .next-button  {
+  width: 100%;
+  height: auto;
+  background-color: #19c213;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+.buttons .previous-button {
+  width: 100%;
+  height: auto;
+  background-color: #00437a;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+.results {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.results .result_wapper  {
+  background-color: #001e2c;
+  color: #ffffff;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.score-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000000;
+}
+
+.play-again-button {
+  background-color: #001e2c;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.2s ease;
+  border: none;
+}
+
+.play-again-button:hover {
+  background-color: #2f6da5;
+}
+
+.score h2 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.score h3 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.question-text h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  padding: 0px 15px;
+  box-shadow: 1px 1px 13px black;
+  border-radius: 7px;
+}
+
+.product img {
+  border-radius: 7px;
+  height: 225px;
+  object-fit: contain;
+}
+
+.product h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 5px;
+  color: #001e2c;
+}
+
+.product p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 5px;
+  color: #7e0000;
+}
+
+.product button {
+  width: 40%;
+  margin: 15px auto;
+  padding: 9px 0px;
+  border: none;
+  color: black;
+  background-color: yellow;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.div_count a{
+  text-decoration: none;
+}
+
+.cartcad {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 25px auto;
+  padding: 20px 15px;
+  box-shadow: 1px 1px 13px black;
+  border-radius: 7px;
+}
+
+.cartcad img {
+  width: 65%;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.cartcad h4 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #001740;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.text_dece {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #012e72;
+  font-weight: 700;
+}
+
+.cart-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cart-btn button {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: #1000ff;
+  padding: 5px 11px;
+  color: white;
+  border-radius: 46%;
+}
+
+.cart-btn .p_count {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding: 5px 11px;
+  color: black;
+  border-radius: 46%;
+  margin-bottom: 0;
+}
+
+.Dash_bord {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 16%;
+}
+
+.Dash_bord .navbar-nav {
+  width: 100%;
+}
+
+.Dash_bord .navbar-nav a {
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.Dash_bord .navbar-nav a:hover {
+  color: #ecc800;
+  background-color: rgba(255, 255, 255, 0.103);
+}
+
+.main_nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 216px;
+  width: 84%;
+  height: 66px;
+}
+
+.student_form {
+  padding: 58px 7px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 1px #0e0aff;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.student_form input {
+  padding: 4px 13px;
+}
+
+.student_form button {
+  padding: 4px 35px;
+    border: none;
+    background-color: yellow;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.student_form button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.table tbody button {
+  padding: 4px 12px;
+  border: none;
+  background-color: yellow;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.navbar-collapse {
+  flex-basis: 0%;
+}
+
+.reactlog img {
+  width: 100%;
+  margin: 18px 0px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .main_nav {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 66px;
+}
+
+.collapse:not(.show) {
+  display: none !important;
+}
+
+.Dash_bord {
+  top: 66px;
+  width: 100%;
+  display: none;
+}
+
+.navbar-collapse .div_count {
+  position: absolute;
+  top: 13px;
+  right: 164px;
+} 
+
+.desktop {
+  visibility: hidden;
+}
+
+.reactlog img {
+  width: 35%;
+  margin: 20px 0px;
+}
+
+.bk-colour {
+  background-color: #000000;
+}
+
+}
+
+.home_main{
+  margin: -30px 0px;
+  padding: 0px 0px;
+}
+

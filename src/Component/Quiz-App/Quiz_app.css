@@ -1,0 +1,221 @@
+/* Quiz App Main Container */
+
+.quiz_main {
+    background-color: #001e2c;
+    color: #ffffff;
+    width: 40%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+
+.quiz-app {
+    text-align: center;
+  }
+  
+  /* Score */
+  .score {
+    margin-bottom: 20px;
+  }
+  
+  /* Question Count */
+  .question-count {
+    margin-bottom: 20px;
+  }
+  
+  /* Question Text */
+  .question-text {
+    margin-bottom: 20px;
+  }
+  
+  /* Answer Options */
+  .answer-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  /* Answer Option */
+  .answer-option {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Correct Answer */
+  .correct {
+    background-color: green !important;
+    color: white !important;
+  }
+  
+  /* Incorrect Answer */
+  .incorrect {
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  /* Disabled Answer Option */
+  .answer-option:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  /* Buttons */
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Previous Button */
+  .previous-button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Next Button */
+  .next-button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-  in-out;
+}
+
+/* Submit Button */
+.submit-button {
+  padding: 10px 20px;
+  margin-right: 20px;
+  background-color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Quit Button */
+.quit-button {
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Time's Up */
+.time-up {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+}
+
+/* Results */
+.results {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Correct Answer */
+.correct {
+  color: green;
+}
+
+/* Incorrect Answer */
+.incorrect {
+  color: red;
+}
+  
+
+
+/* TODO_lIST */
+
+.TODO_lIST {
+  background-color: #001e2c;
+  color: #ffffff;
+  width: 40%;
+  height: 70vh;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+input.in-text {
+  border: none;
+  width: 50%;
+  border-radius: 13px;
+  text-align: center;
+}
+
+h1.heading {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: cursive;
+  color: #00bfff;
+}
+
+.add-btn {
+  border: none;
+  width: 21%;
+  border-radius: 13px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 0px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  color: black;
+  margin-top: 12px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.task-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.delete-btn {
+  border: none;
+  width: 60%;
+  border-radius: 17px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 0px;
+}
+
+.edit-btn {
+  border: none;
+  background: none;
+  margin-bottom: 3px;
+}
+
+.check {
+  visibility: none !important;
+}

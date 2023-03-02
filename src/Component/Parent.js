@@ -11,7 +11,7 @@ import Products from "./AddToCart/Products";
 import Cart from "./AddToCart/Cart";
 import Home from './Home/Home';
 import StudentData from './AddStudentData/StudentData';
-
+import Javascriptpratice from './javascript practice/index'
 
 function parent() {
   return (
@@ -28,6 +28,7 @@ function parent() {
         <Route path='Products' element={<Products />} />
         <Route path='Cart' element={<Cart />} />
         <Route path='StudentData' element={<StudentData />} />
+        <Route path='Javascriptpractice' element={<Javascriptpratice />} />
     </Routes>
     
    </div>

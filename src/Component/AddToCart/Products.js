@@ -11,12 +11,15 @@ const Products = () => {
     item.name.toLowerCase().includes(query.toLowerCase())
   );
 
+
+
   return (
     <div className="productConatiner">
       <div className="products">
         <div className="container">
           <div className="search-container">
             <input
+            className="search_prodcut"
               type="text"
               placeholder="Search for items in your cart"
               value={query}
@@ -25,7 +28,7 @@ const Products = () => {
           </div>
           <div className="row">
             {filteredCart.map((item) => {
-              item.quantity = 1;
+              
               return (
                 <div
                   key={item.id}

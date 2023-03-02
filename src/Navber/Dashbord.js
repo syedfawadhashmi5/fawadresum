@@ -87,6 +87,8 @@ function Dashboard() {
      const [st]=useState("string is by pass contextapi");
    
      let students = [stname,claessNum,num,st,questions,UserName];
+
+     console.log(students)
    
   return (
     <div className="container-fluid p-0">
@@ -152,6 +154,11 @@ function Dashboard() {
             <li className="nav-item">
               <Link to="/StudentData" className="nav-link">
                 Student Data
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/Javascriptpractice" className="nav-link">
+              google map
               </Link>
             </li>
           </ul>

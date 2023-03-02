@@ -447,3 +447,53 @@
   padding: 0px 0px;
 }
 
+.search_prodcut {
+  border: 1px solid #e1e1e1;
+  padding: 12px;
+  width: 100%;
+  border-radius: 50px;
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .main_nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 165px;
+    width: 84%;
+    height: 66px;
+}
+
+.Dash_bord {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 16%;
+}
+  
+}
